@@ -66,7 +66,7 @@ async def on_ready():
     except Exception as e:
         print(f"⚠️ การซิงค์ผิดพลาด: {e}")
     #aawait bot.change_presence(activity=discord.Game(name="Microsoft Flight Simulator 2024"))
-    activity = discord.Activity(type=discord.ActivityType.listening, name="Chelsea Cutler")
+    activity = discord.Activity(type=discord.ActivityType.listening, name="This Is Valley")
     await bot.change_presence(activity=activity)
     #await bot.change_presence(discord.ActivityType.watching(name=""))
     #await bot.change_presence(discord.ActivityType.custom(name=""))
